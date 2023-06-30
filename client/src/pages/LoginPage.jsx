@@ -23,7 +23,7 @@ function LoginPage() {
     }
   }, [isAuthenticated])
   return (
-    <div className="flex flex-col  h-[calc(100vh-100px)] items-center justify-center ">
+    <div className="flex flex-col  h-[calc(100vh-100px)] items-center justify-center w-screen">
 
       <div className="bg-zinc-800 max-w-md p-10 rounded-md">
         {
