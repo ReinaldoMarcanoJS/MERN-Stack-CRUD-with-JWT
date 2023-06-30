@@ -16,7 +16,7 @@ function RegisterPage() {
         signup(values)
     })
     return (
-        <div className="flex flex-col  h-[calc(100vh-100px)] items-center justify-center w-screen">
+        <div className="flex flex-col  h-[calc(100vh-100px)] items-center justify-center w-auto">
             <div className="bg-zinc-800 max-w-md p-10 rounded-md">
                 <div>
                     {

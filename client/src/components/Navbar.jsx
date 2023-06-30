@@ -9,10 +9,10 @@ export function Navbar() {
       <h1 className="text-2xl font-bold">
         <Link to={isAuthenticated ? "/tasks" : "/"}>Task Manager</Link>
       </h1>
-      <ul className="flex gap-x-2">
+      <ul className="flex gap-x-3">
         {isAuthenticated ? (
           <>
-            <li>
+            <li className="font-bold">
               Welcome {user.username}
             </li>
             <li>
