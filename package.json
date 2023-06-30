@@ -1,0 +1,34 @@
+{
+  "name": "crud-react-node",
+  "version": "1.0.0",
+  "description": "proyect of fazt.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReinaldoMarcanoJS/CRUD-REACT-NODE.git"
+  },
+  "author": "Reinaldo Marcano <reinaldomarcano4@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReinaldoMarcanoJS/CRUD-REACT-NODE/issues"
+  },
+  "homepage": "https://github.com/ReinaldoMarcanoJS/CRUD-REACT-NODE#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.0",
+    "morgan": "^1.10.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
