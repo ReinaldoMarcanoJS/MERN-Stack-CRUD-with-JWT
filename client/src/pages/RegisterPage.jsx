@@ -53,13 +53,13 @@ function RegisterPage() {
                         {
                             errors.password && (<p className="text-red-500">password is required</p>)
                         }
-                        <button type="submit">
+                        <button className="bg-zinc-700 rounded-md px-4" type="submit">
                             Register
                         </button>
                     </form>
 
                     <p className="flex gap-x-2 justify-between">
-                        already have an account? <Link to={'/login'} className="text-sky-500">Sign up</Link>
+                        already have an account? <Link to={'/login'} className="text-sky-500">Sign in</Link>
                     </p>
 
                 </div>
